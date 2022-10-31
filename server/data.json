@@ -1,0 +1,180 @@
+{
+  "movies": [
+    {
+      "name": "Akira",
+      "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214292/movies/Akira_1988_oz0te1.png",
+      "year": "1988",
+      "country": "Japón",
+      "director": "Katsuhiro Ōtomo",
+      "duration": "124 min",
+      "sinopsis": "Año 2019. Neo-Tokyo es una ciudad construida sobre las ruinas de la antigua capital japonesa destruida tras la Tercera Guerra Mundial. Japón es un país al borde del colapso que sufre continuas crisis políticas. En secreto, un equipo de científicos ha reanudado por orden del ejército un experimento para encontrar a individuos que puedan controlar el arma definitiva: una fuerza denominada 'la energía absoluta'. Pero los habitantes de Neo-Tokyo tienen otras cosas de las que preocuparse. Uno de ellos es Kaneda, un joven pandillero líder de una banda de motoristas. Durante una pelea, su mejor amigo, Tetsuo, sufre un extraño accidente y termina ingresado en unas instalaciones militares. Allí los científicos descubrirán que es el poseedor de la energía absoluta. Pero Tetsuo, que no se resigna a convertirse en un conejillo de indias, muy pronto se convertirá en la amenaza más grande que el mundo ha conocido. ",
+      "id": "965ea1e7-6ef7-4745-84be-84bcd694336b"
+    },
+    {
+      "name": "Blade Runner 2049",
+      "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214290/movies/Blade_Runner_2049_2017_vesdzd.png",
+      "year": "2017",
+      "country": "Estados Unidos",
+      "director": "Denis Villeneuve",
+      "duration": "163 min",
+      "sinopsis": "Treinta años después de los eventos del primer film, un nuevo blade runner, K (Ryan Gosling) descubre un secreto profundamente oculto que podría acabar con el caos que impera en la sociedad. El descubrimiento de K le lleva a iniciar la búsqueda de Rick Deckard (Harrison Ford), un blade runner al que se le perdió la pista hace 30 años.",
+      "id": "118f340c-1749-4316-bff7-1596228299f1"
+    },
+    {
+      "name": "Blow",
+      "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214292/movies/Blow_2001_ztyhf5.png",
+      "year": "2001",
+      "country": "Estados Unidos",
+      "director": "Ted Demme",
+      "duration": "119 min",
+      "sinopsis": "Basada en hechos reales, cuenta la historia de George Jung, un hombre de familia humilde que consiguió hacerse multimillonario gracias a su propia versión del sueño americano. Durante su estancia en la cárcel se adentra en el mundo del narcotráfico en Colombia, y a través de un ingenioso sistema de importación llega a comerciar la mayor parte de la cocaína que entra en Estados Unidos durante los 70. Acompañado por Mirtha y Delgado, formarán un triángulo que compartirá situaciones límite dominadas por la pasión, el odio, la amistad y una desmedida ambición de poder. ",
+      "id": "c8451658-f556-415e-b5d4-facd40fc7453"
+    },
+    {
+      "name": "Bronson",
+      "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214292/movies/Bronson_2008_woydaf.png",
+      "year": "2008",
+      "country": "Reino Unido",
+      "director": "Nicolas Winding Refn",
+      "duration": "92 min",
+      "sinopsis": "Biopic sobre Michael Peterson (apodado Charles Bronson), considerado 'el hombre más peligroso del Reino Unido'. Bronson es un exboxeador extremadamente violento que lleva 34 años en prisión, aunque nunca ha sido sentenciado por asesinato.",
+      "id": "6cce6ce4-52c3-40bd-b69d-d05805d8b450"
+    },
+    {
+      "name": "Climax",
+      "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214289/movies/Climax_2018_egaji6.jpg",
+      "year": "2018",
+      "country": "Francia",
+      "director": "Gaspar Noé",
+      "duration": "95 min",
+      "sinopsis": "Jóvenes bailarines toman accidentalmente LSD mezclado con sangría y así su exultante ensayo se convierte en una pesadilla cuando uno a uno sienten las consecuencias de una crisis psicodélica colectiva.",
+      "id": "d54097bc-ec3d-4bf8-99f7-51cc27d4a64a"
+    },
+    {
+      "name": "Fargo",
+      "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214292/movies/Fargo_1996_j6a37a.jpg",
+      "year": "1996",
+      "country": "Estados Unidos",
+      "director": "Joel Coen",
+      "duration": "97 min",
+      "sinopsis": "Un hombre apocado y tímido, casado con la hija de un millonario que le impide disfrutar de su fortuna, decide contratar a dos delincuentes para que secuestren a su mujer con el fin de montar un negocio propio con el dinero del rescate. Pero, por una serie de azarosas circunstancias, al secuestro se suman tres brutales asesinatos, lo que obliga a la policía a intervenir.",
+      "id": "e408b223-0650-41fb-8f0e-2f212ae9a5c3"
+    },
+    {
+      "name": "Incendies",
+      "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214292/movies/Incendies_2010_gicikk.jpg",
+      "year": "2010",
+      "country": "Canadá",
+      "director": "Denis Villeneuve",
+      "duration": "130 min",
+      "sinopsis": "Jeanne y Simon Marwan son dos gemelos que viven en Canadá cuya madre Nawal, tras pasar sus últimos días sin hablar, acaba de fallecer. En el acto de apertura del testamento, el notario les da dos cartas que deben ser entregadas a un padre al que creían muerto y a un hermano cuya existencia desconocían. Jeanne decide entonces emprender un viaje al Líbano para intentar localizarlos y encontrar respuestas a su existencia, pero Simon no quiere saber nada del tema... Basada en una obra de teatro de Wajdi Mouawad.",
+      "id": "d1274476-6320-4ec5-bd6b-19f553222ef9"
+    },
+    {
+      "name": "Mystic River",
+      "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214292/movies/Mystic_River_2003_mdbori.jpg",
+      "year": "2003",
+      "country": "Estados Unidos",
+      "director": "Clint Eastwood",
+      "duration": "137 min",
+      "sinopsis": "Cuando Jimmy Markum (Sean Penn), Dave Boyle (Tim Robbins) y Sean Devine (Kevin Bacon) eran unos niños que crecían juntos en un peligroso barrio obrero de Boston, pasaban los días jugando al hockey en la calle. Pero, un día, a Dave le ocurrió algo que marcó para siempre su vida y la de sus amigos. Veinticinco años más tarde, otra tragedia los vuelve a unir: el asesinato de Katie (Emmy Rossum), la hija de 19 años de Jimmy. A Sean, que es policía, le asignan el caso; pero también tiene que estar muy pendiente de Jimmy porque, en su desesperación, está intentando tomarse la justicia por su mano.",
+      "id": "0279d7f6-6f92-4907-85e4-cf159cf7c0fb"
+    },
+    {
+      "name": "Oldboy",
+      "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214289/movies/Oldboy_2003_zmczfo.jpg",
+      "year": "2003",
+      "country": "Corea del Sur",
+      "director": "Park Chan-wook",
+      "duration": "120 min",
+      "sinopsis": "Oh Dae-su es un hombre de negocios coreano que un día es secuestrado y confinado durante años en una celda en la que sólo hay una televisión. Y, sin embargo, ignora por qué razón está allí... Segunda parte de la 'trilogía de la venganza' de Park Chan-wook.",
+      "id": "23d6403e-b8f6-4693-8f72-c9216297e3d5"
+    },
+    {
+      "name": "Roma",
+      "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214290/movies/Roma_2018_vyemqo.png",
+      "year": "2018",
+      "country": "México",
+      "director": "Alfonso Cuarón",
+      "duration": "135 min",
+      "sinopsis": "Cleo (Yalitza Aparicio) es la joven sirvienta de una familia que vive en la Colonia Roma, barrio de clase media-alta de Ciudad de México. En esta carta de amor a las mujeres que lo criaron, Cuarón se inspira en su propia infancia para pintar un retrato realista y emotivo de los conflictos domésticos y las jerarquías sociales durante la agitación política de la década de los 70.",
+      "id": "1ad0a676-426b-4b01-8a8d-cfc37517843f"
+    },
+    {
+      "name": "The Big Lebowski",
+      "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214290/movies/The_Big_Lebowski_1998_e9pyq0.jpg",
+      "year": "1998",
+      "country": "Estados Unidos",
+      "director": "Joel Coen",
+      "duration": "117 min",
+      "sinopsis": "El Nota (Jeff Bridges), un vago que vive en Los Angeles, un día es confundido por un par de matones con el millonario Jeff Lebowski, con quien sólo comparte apellido. Después de que orinen en su alfombra, el Nota inicia la búsqueda de El Gran Lebowski. De su encuentro surgirá un trato: el Nota recibirá una recompensa si consigue encontrar a la mujer del magnate.",
+      "id": "e715659b-d3ce-4a8d-9522-a997dca3059f"
+    },
+    {
+      "name": "Los odiosos ocho",
+      "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214290/movies/The_Hateful_Eight_2015_un04ir.jpg",
+      "year": "2015",
+      "country": "Estados Unidos",
+      "director": "Quentin Tarantino",
+      "duration": "167 min",
+      "sinopsis": "Pocos años después de la Guerra de Secesión, una diligencia avanza por el invernal paisaje de Wyoming. Los pasajeros, el cazarrecompensas John Ruth (Kurt Russell) y su fugitiva Daisy Domergue (Jennifer Jason Leigh), intentan llegar al pueblo de Red Rock, donde Ruth entregará a Domergue a la justicia. Por el camino, se encuentran con dos desconocidos: el mayor Marquis Warren (Samuel L. Jackson), un antiguo soldado de la Unión convertido en cazarrecompensas de mala reputación, y Chris Mannix (Walton Goggins), un renegado sureño que afirma ser el nuevo sheriff del pueblo. Como se aproxima una ventisca, los cuatro se refugian en la Mercería de Minnie, una parada para diligencias de un puerto de montaña. Cuando llegan al local se topan con cuatro rostros desconocidos: el mexicano Bob (Demian Bichir), Oswaldo Mobray (Tim Roth), verdugo de Red Rock, el vaquero Joe Gage (Michael Madsen) y el general confederado Sanford Smithers (Bruce Dern). Mientras la tormenta cae sobre la parada de montaña, los ocho viajeros descubren que tal vez no lleguen hasta Red Rock después de todo. ",
+      "id": "1d5e5bdf-36f1-4fd6-a4e9-9cf05a41b204"
+    },
+    {
+      "name": "El faro",
+      "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214289/movies/The_Lighthouse_2019_nnlgpu.jpg",
+      "year": "2019",
+      "country": "Estados Unidos",
+      "director": "Robert Eggers",
+      "duration": "110 min",
+      "sinopsis": "Una remota y misteriosa isla de Nueva Inglaterra en la década de 1890. El veterano farero Thomas Wake (Willem Dafoe) y su joven ayudante Ephraim Winslow (Robert Pattinson) deberán convivir durante cuatro semanas. Su objetivo será mantener el faro en buenas condiciones hasta que llegue el relevo que les permita volver a tierra. Pero las cosas se complicarán cuando surjan conflictos por jerarquías de poder entre ambos.",
+      "id": "681c16d4-b523-42a2-b276-94bfcca9e588"
+    },
+    {
+      "name": "Cruce de caminos",
+      "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214288/movies/The_Place_Beyond_the_Pines_2013_firzbe.jpg",
+      "year": "2012",
+      "country": "Estados Unidos",
+      "director": "Derek Cianfrance",
+      "duration": "135 min",
+      "sinopsis": "Luke (Ryan Gosling), un motorista que trabaja como especialista en un espectáculo viajando de una ciudad a otra, se reencuentra con una antigua y breve novia, Romina (Eva Mendes), y descubre que recientemente ella ha tenido un hijo de él, Jason. Decide entonces dejar la carretera, establecerse y trabajar de mecánico, intentar recuperar el cariño de Romina y poder cuidar de su hijo. Pero ante la falta de dinero Luke sólo ve una salida: su jefe Robin (Ben Mendelsohn) le propone robar bancos aprovechando lo hábil que es con su motocicleta.",
+      "id": "21e73a74-1a85-4d49-a935-be290b030ffb"
+    },
+    {
+      "name": "El bosque",
+      "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214292/movies/The_Village_2004_bzqqql.jpg",
+      "year": "2004",
+      "country": "Estados Unidos",
+      "director": "M. Night Shyamalan",
+      "duration": "108 min",
+      "sinopsis": "Los vecinos de una pequeña población rural de Pennsylvania viven atemorizados por culpa de unos extraños seres que habitan en los bosques circundantes. Saben perfectamente que para salvarse deben cumplir escrupulosamente ciertas reglas: evitar que vean el color rojo porque los atrae, mantenerse alejados del bosque, donde esperan agazapados la llegada de alguien, y obedecer la campana de alerta, que indica que se acercan a la aldea.",
+      "id": "e377302f-63f5-46e2-b9b0-27ca1d323701"
+    },
+    {
+      "name": "",
+      "poster": "",
+      "year": 0,
+      "country": "",
+      "director": "",
+      "duration": "",
+      "sinopsis": "",
+      "id": "3426bd3a-8e9b-448b-94bb-ae8abcdbc6a6"
+    },
+    {
+      "name": "Goodfellas",
+      "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667233236/movies/GoodFellas_1990_jfphhe.jpg",
+      "year": "1990",
+      "country": "Estados Unidos",
+      "director": "Martin Scorsese",
+      "duration": "148 min",
+      "sinopsis": "Henry Hill, hijo de padre irlandés y madre siciliana, vive en Brooklyn y se siente fascinado por la vida que llevan los gángsters de su barrio, donde la mayoría de los vecinos son inmigrantes. Paul Cicero, el patriarca de la familia Pauline, es el protector del barrio. A los trece años, Henry decide abandonar la escuela y entrar a formar parte de la organización mafiosa como chico de los recados; muy pronto se gana la confianza de sus jefes, gracias a lo cual irá subiendo de categoría.",
+      "id": "f3499c1c-3860-41e4-805d-5822ed4fb2bc"
+    },
+    {
+      "title": "ewwee",
+      "poster": "weewee",
+      "year": "1996",
+      "id": "854acacc-c25e-4c9b-a505-88e7eced01e0"
+    }
+  ]
+}
