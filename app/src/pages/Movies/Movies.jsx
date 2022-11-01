@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import React from "react";
 import "./styles.css";
+import { useParams } from "react-router-dom";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import Movie from "../Movie";
+import axios from "axios";
 
 /* import { getMovie } from "../../services/NewFetch";
 import { useDebounce } from "use-debounce"; */
@@ -21,21 +22,33 @@ const Movies = () => {
     getMovies();
   }, []);
 
+  const deleteMovie = async (id) => {
+    await axios({
+      //es necesario el await??
+      method: "delete",
+      url: `http://localhost:8080/movies/${id}`,
+    });
+
+    const newList = movies.filter((movie) => movie.id != id);
+    setMovies(newList);
+  };
+
   return (
     <div>
       <h2>Pelis por ver 📌</h2>
       <Container>
-        <Grid container>
+        <Grid container spacing={3}>
           {movies.map((movie) => (
             <Grid
               item
               className="moviecard"
               key={movie.id}
-              xs={12}
+              xs={6}
               md={6}
               lg={4}
             >
-              <Movie note={movie} />
+              <Movie movie={movie} deleteMovie={deleteMovie} />
+              {/* //mirar esto bien */}
             </Grid>
           ))}
         </Grid>
