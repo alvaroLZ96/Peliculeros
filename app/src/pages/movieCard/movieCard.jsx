@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import React from "react";
+import "./styles.css";
 
 const MovieCard = () => {
   const [movie, setMovie] = useState({});
@@ -20,17 +21,21 @@ const MovieCard = () => {
   }, []);
 
   return (
-    <div className="movie">
+    <div className="cardDiv">
       {movie ? (
-        <figure className="cardDiv">
-          <h3>{movie.name}</h3>
-          <h3>{movie.year}</h3>
-          <h3>{movie.country}</h3>
-          <h3>{movie.director}</h3>
-          <h3>{movie.duration}</h3>
-          <h3>{movie.sinopsis}</h3>
-          <img src={movie.poster} alt={movie.name} />
-        </figure>
+        <>
+          <ul className="movieDiv">
+            <h3>{movie.name}</h3>
+            <li>{movie.year}</li>
+            <li>{movie.country}</li>
+            <li>{movie.director}</li>
+            <li>{movie.duration}</li>
+            <li>{movie.sinopsis}</li>
+          </ul>
+          <figure>
+            <img src={movie.poster} alt={movie.name} />
+          </figure>
+        </>
       ) : (
         <div>Not Exists</div>
       )}

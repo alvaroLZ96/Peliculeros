@@ -26,10 +26,10 @@ input{
        }
 
 .formDiv{
-    height: 100vh;
+    height: 80vh;
  background-image: url("https://res.cloudinary.com/ddtufnl04/image/upload/v1667311863/movies/pngegg_1_qruqku.png");
 background-position: bottom;
-background-size:45% ;
+background-size:35% ;
 background-repeat: no-repeat;
 }
 form{
@@ -74,3 +74,25 @@ form> button{
   button:active .button_top {
    transform: translateY(0);
   }
+.notFound{
+height: 100vh;
+width: 100vw;
+background-color: #19B885;
+}
+.notFound img{
+   margin: 2rem 30%;     
+}
+.about{
+    height: 80vh;
+    background-image: url("https://res.cloudinary.com/ddtufnl04/image/upload/v1667342422/movies/poster_sdtlgi.jpg");
+    background-color: #E9D7C9;
+    background-position: right;
+    background-size:25% ;
+    background-repeat: no-repeat;
+}
+.about p{
+    width: 40%;
+    padding: 4rem;
+    font-size: 20px;
+text-align: justify
+}

@@ -1,0 +1,20 @@
+.cardDiv{
+height: 500px;
+display: flex;
+font-size: 20px;
+}
+.cardDiv img{
+    height: 400px;
+    float:right;
+    box-shadow: rgba(240, 46, 46, 0.4) 5px 5px, rgba(240, 46, 46, 0.3) 10px 10px, rgba(240, 46, 46, 0.2) 15px 15px, rgba(240, 46, 46, 0.1) 20px 20px, rgba(240, 46, 46, 0.05) 25px 25px;
+}
+.movieDiv h3{
+font-size: 35px;
+text-align: center;
+}
+.movieDiv li{
+    list-style-type: none;
+}
+.movieDiv li::before{
+content: "🎬  " ;
+}

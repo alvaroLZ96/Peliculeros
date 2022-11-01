@@ -8,7 +8,7 @@ import NotFound from "./pages/404";
 import Movies from "./pages/Movies/Movies";
 import NewMovie from "./pages/NewMovie";
 /* import Movie from "./pages/Movie"; */
-import MovieCard from "./components/movieCard";
+import MovieCard from "./pages/movieCard/movieCard";
 import About from "./pages/about";
 import "./index.css";
 

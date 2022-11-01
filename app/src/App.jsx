@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import React from "react";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
+import Footer from "./components/Footer";
 
 const theme = createTheme({
   typography: {
@@ -20,6 +21,7 @@ function App() {
       <main>
         <Outlet />
       </main>
+      <Footer />
     </div>
   );
 }

@@ -8,6 +8,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    height: 80%;
     
 }
 .homeMovie{
@@ -16,21 +17,38 @@
     align-items: center;
     justify-content: center;
 }
-
+.homeMovie input{
+    background-image:url("https://res.cloudinary.com/ddtufnl04/image/upload/v1667344225/movies/old-film-texture-background-film-camera-frame-art-design-your-work_35956-3819_s7cfs9.jpg");
+    background-size: contain;
+    color:black;
+    font-weight: bold;
+}
+.homeList{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    padding:0;
+}
 .homeList>li{
     list-style-type: none; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 
 }
 .homeList>li>h1{
-    height: 30px;
+    text-transform: uppercase;
+    height: 20px;
     font-size: 25px;
     text-align: center;
 }
 
-.homeList>li>img{ /* por que tengo que poner el li antes del img? */
+.homeList img{ /* por que tengo que poner el li antes del img? */
     height: 400px;
 }

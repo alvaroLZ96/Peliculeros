@@ -4,6 +4,7 @@ import { getMovie } from "../services/NewFetch";
 import { useDebounce } from "use-debounce";
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
+import { v4 as uuidv4 } from "uuid";
 
 export const FilterMovie = () => {
   const [filter, setFilter] = useState("");
@@ -17,8 +18,8 @@ export const FilterMovie = () => {
   return (
     <div className="homeMovie">
       <motion.input
-        whileHover={{ scale: 1.5, width: 200 }}
-        whileTap={{ scale: 1.5, width: 200 }}
+        whileHover={{ scale: 1.5, width: 250 }}
+        whileTap={{ scale: 1.5, width: 250 }}
         transition={{ duration: 0.3 }}
         type="text"
         value={filter}
@@ -26,9 +27,8 @@ export const FilterMovie = () => {
       ></motion.input>
       <ul className="homeList">
         {moviesCollection.map((movie) => (
-          <li key={movie.name}>
+          <li key={uuidv4()}>
             <h1>{movie.name}</h1>
-            {console.log(movie)}
             <NavLink to={`/pelis/${movie.id}`}>
               <img src={movie.poster} alt={movie.name} />
             </NavLink>
