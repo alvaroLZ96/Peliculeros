@@ -13,6 +13,16 @@ import MenuItem from "@mui/material/MenuItem";
 import MovieCreationSharpIcon from "@mui/icons-material/MovieCreationSharp";
 import { NavLink } from "react-router-dom";
 
+import blueGrey from "@mui/material/colors/blueGrey";
+
+const styles = {
+  customColor: {
+    backgroundColor: blueGrey[800],
+    boxShadow:
+      "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;",
+  },
+};
+
 const pages = ["pelis", "ponmeotra", "about"];
 
 function Navbar() {
@@ -35,11 +45,11 @@ function Navbar() {
   }; */
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={styles.customColor}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <MovieCreationSharpIcon
-            sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
+            sx={{ display: { xs: "none", md: "flex" }, mr: 2 }}
           />
           <Typography
             variant="h6"
@@ -47,9 +57,9 @@ function Navbar() {
             component="a"
             href="/"
             sx={{
-              mr: 2,
+              mr: 20,
               display: { xs: "none", md: "flex" },
-              fontFamily: "monospace",
+              fontFamily: "Shadows Into Light",
               fontWeight: 700,
               letterSpacing: ".3rem",
               color: "inherit",
@@ -58,7 +68,44 @@ function Navbar() {
           >
             PELICULEROS
           </Typography>
-
+          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+            <IconButton
+              size="large"
+              aria-label="account of current user"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              onClick={handleOpenNavMenu}
+              color="inherit"
+            >
+              <MenuIcon />
+            </IconButton>
+            <Menu
+              id="menu-appbar"
+              anchorEl={anchorElNav}
+              anchorOrigin={{
+                vertical: "bottom",
+                horizontal: "left",
+              }}
+              keepMounted
+              transformOrigin={{
+                vertical: "top",
+                horizontal: "left",
+              }}
+              open={Boolean(anchorElNav)}
+              onClose={handleCloseNavMenu}
+              sx={{
+                display: { xs: "block", md: "none" },
+              }}
+            >
+              {pages.map((page) => (
+                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                  <Typography textAlign="center">
+                    <NavLink to={`/${page}`}>{page}</NavLink>
+                  </Typography>
+                </MenuItem>
+              ))}
+            </Menu>
+          </Box>
           <MovieCreationSharpIcon
             sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
           />
@@ -85,7 +132,7 @@ function Navbar() {
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "white", display: "block" }}
+                sx={{ px: 5, my: 2, color: "white", display: "block" }}
               >
                 <NavLink
                   style={{ textDecoration: "none", color: "white" }}
