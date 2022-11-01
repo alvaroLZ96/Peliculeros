@@ -8,7 +8,6 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import MovieCreationSharpIcon from "@mui/icons-material/MovieCreationSharp";
 import { NavLink } from "react-router-dom";
@@ -17,13 +16,13 @@ import blueGrey from "@mui/material/colors/blueGrey";
 
 const styles = {
   customColor: {
-    backgroundColor: blueGrey[800],
+    backgroundColor: blueGrey[900],
     boxShadow:
       "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;",
   },
 };
 
-const pages = ["pelis", "ponmeotra", "about"];
+const pages = ["pelis", "añadir", "about"];
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

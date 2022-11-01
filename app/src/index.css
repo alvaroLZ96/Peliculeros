@@ -1,0 +1,76 @@
+
+body{
+    background-color: #e0e0e0;
+background-image: url("https://www.transparenttextures.com/patterns/white-diamond-dark.png");
+font-family: 'Shadows Into Light', cursive;
+}
+
+h2{
+    text-align: center;
+    color:rgb(146, 0, 0)
+}
+input{
+        background-color: #eee;
+        border: none;
+        padding: 0.3rem;
+        font-size: 1rem;
+        width: 8em;
+        border-radius: 1rem;
+        color: lightcoral;
+        box-shadow: 0 0.4rem #dfd9d9;
+        cursor: pointer;
+       }
+       
+     input:focus {
+        outline-color: lightcoral;
+       }
+
+.formDiv{
+    height: 100vh;
+ background-image: url("https://res.cloudinary.com/ddtufnl04/image/upload/v1667311863/movies/pngegg_1_qruqku.png");
+background-position: bottom;
+background-size:45% ;
+background-repeat: no-repeat;
+}
+form{
+    margin-top:3rem;
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right:1rem ;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form> button{
+    margin-top:0.8rem;
+    --button_radius: 0.75em;
+    --button_color: #e8e8e8;
+    --button_outline_color: #000000;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    border-radius: var(--button_radius);
+    background: var(--button_outline_color);
+    width: 150px;
+    
+   }
+   .button_top {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid var(--button_outline_color);
+    border-radius: var(--button_radius);
+    padding: 0.75em 1.5em;
+    background: var(--button_color);
+    color: var(--button_outline_color);
+    transform: translateY(-0.5em);
+    transition: transform 0.1s ease;
+   }
+   button:hover .button_top {
+   transform: translateY(-0.33em);
+  }
+  
+  button:active .button_top {
+   transform: translateY(0);
+  }

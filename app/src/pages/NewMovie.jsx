@@ -45,31 +45,32 @@ const NewMovie = () => {
   const postMovie = async (item) => {
     axios({
       method: "post",
-      url: "http://localhost:8080/movies",
+      url: "http://localhost:8080/pelis",
       data: item,
     });
   };
 
   return (
-    <div>
+    <div className="formDiv">
       <form onSubmit={(ev) => createMovie(ev)}>
         <fieldset>
           <legend>Añade una peli que quieres ver</legend>
-          <label htmlFor="name">Título:</label>
+          <label htmlFor="name">&nbsp;Título:</label>
           <input
             type="text"
             name="name"
             id="name"
             onChange={(ev) => setName(ev.target.value)}
           />
-          <label htmlFor="poster">Poster:</label>
+
+          <label htmlFor="poster">&nbsp;&nbsp;Poster:</label>
           <input
             type="text"
             name="poster"
             id="poster"
             onChange={(ev) => setPoster(ev.target.value)}
           />
-          <label htmlFor="year">Año:</label>
+          <label htmlFor="year">&nbsp;&nbsp;Año:</label>
           <input
             type="number"
             name="year"
@@ -77,20 +78,21 @@ const NewMovie = () => {
             min={1900}
             onChange={(ev) => setYear(ev.target.value)}
           />
-          <label htmlFor="country">País:</label>
+          <label htmlFor="country">&nbsp;&nbsp;País:</label>
           <input
             type="text"
             name="country"
             id="country"
             onChange={(ev) => setCountry(ev.target.value)}
           />
-          <label htmlFor="director">Dirección:</label>
+          <label htmlFor="director">&nbsp;&nbsp;Dirección:</label>
           <input
             type="text"
             name="director"
             id="director"
             onChange={(ev) => setDirector(ev.target.value)}
           />
+          <br></br>
           <label htmlFor="duration">Duración:</label>
           <input
             type="text"
@@ -98,7 +100,7 @@ const NewMovie = () => {
             id="duration"
             onChange={(ev) => setDuration(ev.target.value)}
           />
-          <label htmlFor="sinopsis">Sinopsis:</label>
+          <label htmlFor="sinopsis">&nbsp;&nbsp;Sinopsis:</label>
           <input
             type="text"
             name="sinopsis"
@@ -106,7 +108,9 @@ const NewMovie = () => {
             onChange={(ev) => setSinopsis(ev.target.value)} //METER UN TEXTAREA CON MATERIAL
           />
         </fieldset>
-        <input type="submit" value="Create" />
+        <button type="submit">
+          <span className="button_top"> Añadir</span>
+        </button>
       </form>
       {/*  <MoviesGallery movies={movies} /> */}
     </div>
