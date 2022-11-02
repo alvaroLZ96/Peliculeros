@@ -1,7 +1,7 @@
 {
   "pelis": [
     {
-      "name": "Blow",
+      "name": "blow",
       "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214292/movies/Blow_2001_ztyhf5.png",
       "year": "2001",
       "country": "Estados Unidos",
@@ -11,7 +11,7 @@
       "id": "c8451658-f556-415e-b5d4-facd40fc7453"
     },
     {
-      "name": "Bronson",
+      "name": "bronson",
       "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214292/movies/Bronson_2008_woydaf.png",
       "year": "2008",
       "country": "Reino Unido",
@@ -21,7 +21,7 @@
       "id": "6cce6ce4-52c3-40bd-b69d-d05805d8b450"
     },
     {
-      "name": "Climax",
+      "name": "climax",
       "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214289/movies/Climax_2018_egaji6.jpg",
       "year": "2018",
       "country": "Francia",
@@ -31,7 +31,7 @@
       "id": "d54097bc-ec3d-4bf8-99f7-51cc27d4a64a"
     },
     {
-      "name": "Fargo",
+      "name": "fargo",
       "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214292/movies/Fargo_1996_j6a37a.jpg",
       "year": "1996",
       "country": "Estados Unidos",
@@ -41,7 +41,7 @@
       "id": "e408b223-0650-41fb-8f0e-2f212ae9a5c3"
     },
     {
-      "name": "Incendies",
+      "name": "incendies",
       "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214292/movies/Incendies_2010_gicikk.jpg",
       "year": "2010",
       "country": "Canadá",
@@ -51,7 +51,7 @@
       "id": "d1274476-6320-4ec5-bd6b-19f553222ef9"
     },
     {
-      "name": "Mystic River",
+      "name": "mystic River",
       "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214292/movies/Mystic_River_2003_mdbori.jpg",
       "year": "2003",
       "country": "Estados Unidos",
@@ -61,7 +61,7 @@
       "id": "0279d7f6-6f92-4907-85e4-cf159cf7c0fb"
     },
     {
-      "name": "Oldboy",
+      "name": "oldboy",
       "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214289/movies/Oldboy_2003_zmczfo.jpg",
       "year": "2003",
       "country": "Corea del Sur",
@@ -71,7 +71,7 @@
       "id": "23d6403e-b8f6-4693-8f72-c9216297e3d5"
     },
     {
-      "name": "Roma",
+      "name": "roma",
       "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214290/movies/Roma_2018_vyemqo.png",
       "year": "2018",
       "country": "México",
@@ -81,7 +81,7 @@
       "id": "1ad0a676-426b-4b01-8a8d-cfc37517843f"
     },
     {
-      "name": "The Big Lebowski",
+      "name": "the big lebowski",
       "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214290/movies/The_Big_Lebowski_1998_e9pyq0.jpg",
       "year": "1998",
       "country": "Estados Unidos",
@@ -91,7 +91,7 @@
       "id": "e715659b-d3ce-4a8d-9522-a997dca3059f"
     },
     {
-      "name": "Los odiosos ocho",
+      "name": "los odiosos ocho",
       "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214290/movies/The_Hateful_Eight_2015_un04ir.jpg",
       "year": "2015",
       "country": "Estados Unidos",
@@ -101,7 +101,7 @@
       "id": "1d5e5bdf-36f1-4fd6-a4e9-9cf05a41b204"
     },
     {
-      "name": "El faro",
+      "name": "el faro",
       "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214289/movies/The_Lighthouse_2019_nnlgpu.jpg",
       "year": "2019",
       "country": "Estados Unidos",
@@ -111,7 +111,7 @@
       "id": "681c16d4-b523-42a2-b276-94bfcca9e588"
     },
     {
-      "name": "Cruce de caminos",
+      "name": "cruce de caminos",
       "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214288/movies/The_Place_Beyond_the_Pines_2013_firzbe.jpg",
       "year": "2012",
       "country": "Estados Unidos",
@@ -121,7 +121,7 @@
       "id": "21e73a74-1a85-4d49-a935-be290b030ffb"
     },
     {
-      "name": "El bosque",
+      "name": "el bosque",
       "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667214292/movies/The_Village_2004_bzqqql.jpg",
       "year": "2004",
       "country": "Estados Unidos",
@@ -131,7 +131,7 @@
       "id": "e377302f-63f5-46e2-b9b0-27ca1d323701"
     },
     {
-      "name": "Goodfellas",
+      "name": "goodfellas",
       "poster": "https://res.cloudinary.com/ddtufnl04/image/upload/v1667233236/movies/GoodFellas_1990_jfphhe.jpg",
       "year": "1990",
       "country": "Estados Unidos",

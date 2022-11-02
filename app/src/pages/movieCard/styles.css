@@ -17,4 +17,22 @@ text-align: center;
 }
 .movieDiv li::before{
 content: "🎬  " ;
+} 
+.preview{
+margin:0 1rem;
+font-size: 17px;
+height: 50vh;
+}
+.preview p{
+  display:inline-flex;
+  margin:0.4rem;
+  width: 25vw;
+  overflow:auto;
+
+}
+.preview img{
+    position:relative;
+    bottom: 35px;
+ height: 300px;
+float:right
 }
