@@ -12,17 +12,6 @@ export const FilterMovie = () => {
   const [filter, setFilter] = useState("");
   const [moviesCollection, setMoviesCollection] = useState([]);
   const [debounceFilter] = useDebounce(filter, 1000);
-  //TERCERA VIA (POR QUÉ ESTÁ MAL?)
-  /* useEffect(() => {
-    getMovies().then((data) => {
-      setMoviesCollection(
-        data.filter((movie) => {
-          console.log(movie);
-          return movie.name.includes(filter.toLowerCase);
-        })
-      );
-    });
-  }, [setMoviesCollection]); */
 
   //PRIMERA OPCIÓN
   useEffect(() => {
@@ -51,6 +40,17 @@ export const FilterMovie = () => {
     );
   }; */
   //FIN DE LA SEGUNDA OPCIÓN AQUÍ
+  //TERCERA VIA
+  /* useEffect(() => {
+    getMovies().then((data) => {
+      setMoviesCollection(
+        data.filter((movie) => {
+          console.log(movie);
+          return movie.name.includes(filter.toLowerCase);
+        })
+      );
+    });
+  }, [setMoviesCollection]); */
   return (
     <div className="homeMovie">
       <motion.input

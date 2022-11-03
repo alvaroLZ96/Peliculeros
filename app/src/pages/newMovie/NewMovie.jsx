@@ -1,10 +1,11 @@
 import React from "react";
+import "./styles.css";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { v4 as uuidv4 } from "uuid";
 import { useNavigate } from "react-router-dom";
-import Card from "../components/Card";
-import Image from "../components/image";
+/* import Card from "../../components/Card";
+import Image from "../../components/image"; */
 /* import MoviesGallery from "../components/MoviesGallery"; */
 const NewMovie = () => {
   const [movie, setMovie] = useState({});
@@ -134,7 +135,7 @@ const NewMovie = () => {
         <p>{movie.country}</p>
         <p>{movie.director}</p>
         <p>{movie.duration}</p>
-        <p>{movie.sinopsis}</p>
+        <p className="sinopsis">{movie.sinopsis}</p>
         <img src={movie.poster} alt={movie.name} />
       </div>
     </div>
