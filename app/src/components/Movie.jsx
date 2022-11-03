@@ -33,6 +33,7 @@ export default function Movie({ movie, deleteMovie }) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardHeader
+        className="cardheader"
         action={
           <IconButton onClick={() => deleteMovie(movie.id)}>
             <DeleteIcon />

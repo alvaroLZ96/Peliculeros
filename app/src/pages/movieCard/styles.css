@@ -11,6 +11,7 @@ font-size: 20px;
 .movieDiv h3{
 font-size: 35px;
 text-align: center;
+text-transform: capitalize;
 }
 .movieDiv li{
     list-style-type: none;
@@ -18,3 +19,6 @@ text-align: center;
 .movieDiv li::before{
 content: "🎬  " ;
 } 
+.cardheader{
+    text-transform: capitalize;
+}
