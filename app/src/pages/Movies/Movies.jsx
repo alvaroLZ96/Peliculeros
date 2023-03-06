@@ -21,7 +21,6 @@ const Movies = () => {
 
   const deleteMovie = async (id) => {
     await axios({
-      //es necesario el await??
       method: "delete",
       url: `http://localhost:8080/pelis/${id}`,
     });
@@ -53,16 +52,6 @@ const Movies = () => {
     </div>
   );
 
-  /* 
-  {movies.map((movie) => (
-    <div className="moviecard" key={movie.name}>
-      {
-        <Link to={`/movies/${movie.id}`}>
-          <h1>{movie.name}</h1>
-        </Link>
-      }
-      <img src={movie.poster} alt={movie.name} />
-    </div> */
 };
 
 export default Movies;
