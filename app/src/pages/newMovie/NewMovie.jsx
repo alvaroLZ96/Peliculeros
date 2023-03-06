@@ -4,45 +4,14 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { v4 as uuidv4 } from "uuid";
 import { useNavigate } from "react-router-dom";
-/* import Card from "../../components/Card";
-import Image from "../../components/image"; */
-/* import MoviesGallery from "../components/MoviesGallery"; */
+
 const NewMovie = () => {
   const [movie, setMovie] = useState({});
   const navigate = useNavigate();
-
-  /*  const [name, setName] = useState("");
-  const [poster, setPoster] = useState("");
-  const [year, setYear] = useState(0);
-  const [country, setCountry] = useState("");
-  const [director, setDirector] = useState("");
-  const [duration, setDuration] = useState("");
-  const [sinopsis, setSinopsis] = useState(""); */
-
-  /* const [movies, setMovies] = useState([]); */
-  /* 
-  useEffect(() => {
-    const getMovies = async () => {
-      const data = await fetch("http://localhost:8080/movies");
-      const res = await data.json();
-      setMovies(res);
-    };
-
-    getMovies();
-  }, []); */
-
+  
   const createMovie = (ev) => {
-    //Prevenimos el comportamiento por defecto del evento submit (recargar la página)
     ev.preventDefault();
-    //Conformar un objeto llamado movie
-    /* const movie = {
-      name: name,
-      poster: poster,
-      year: year,
-      country: country,
-      director: director,
-      duration: duration,
-      sinopsis: sinopsis, */
+    
     setMovie({ ...movie, id: uuidv4() });
     postMovie(movie);
   };
@@ -118,7 +87,7 @@ const NewMovie = () => {
             type="text"
             name="sinopsis"
             id="sinopsis"
-            onChange={(ev) => setMovie({ ...movie, sinopsis: ev.target.value })} //METER UN TEXTAREA CON MATERIAL
+            onChange={(ev) => setMovie({ ...movie, sinopsis: ev.target.value })}
           />
         </fieldset>
         <button type="submit">
@@ -126,8 +95,6 @@ const NewMovie = () => {
         </button>
       </form>
       <div className="preview">
-        {/* <Card item={movie} />
-        <Image source={movie.poster} alternative={movie.name} size="7rem" /> */}
         <p>
           <b>{movie.name}</b>
         </p>
