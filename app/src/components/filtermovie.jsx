@@ -13,44 +13,11 @@ export const FilterMovie = () => {
   const [moviesCollection, setMoviesCollection] = useState([]);
   const [debounceFilter] = useDebounce(filter, 1000);
 
-  //PRIMERA OPCIÓN
+  
   useEffect(() => {
     getMovie(filter.toLowerCase()).then((res) => setMoviesCollection([res]));
   }, [debounceFilter]);
 
-  //SEGUNDA OPCIÓN
-  /*  useEffect(() => {
-    loadingData();
-  }, [debounceFilter]);
-
-  const loadingData = () => {
-    if (filter === "") {
-      getMovies().then((data) => {
-        setMoviesCollection(data);
-      });
-    } else {
-      const filteredMovies = filtered("name", moviesCollection);
-      setMoviesCollection(filteredMovies);
-    }
-  };
-
-  const filtered = (name, list) => {
-    return list.filter((item) =>
-      item[name].toLowerCase().includes(filter.toLowerCase())
-    );
-  }; */
-  //FIN DE LA SEGUNDA OPCIÓN AQUÍ
-  //TERCERA VIA
-  /* useEffect(() => {
-    getMovies().then((data) => {
-      setMoviesCollection(
-        data.filter((movie) => {
-          console.log(movie);
-          return movie.name.includes(filter.toLowerCase);
-        })
-      );
-    });
-  }, [setMoviesCollection]); */
   return (
     <div className="homeMovie">
       <motion.input
@@ -61,21 +28,16 @@ export const FilterMovie = () => {
         value={filter}
         onChange={(e) => setFilter(e.target.value)}
       ></motion.input>
-      {/* {moviesCollection.length === 0 ? (
-        <p> Movie not Found</p>
-      ) : ( */}
       <ul className="homeList">
         {moviesCollection.map((movie) => (
           <li key={uuidv4()}>
             <h1>{movie.name}</h1>
             <NavLink to={`/pelis/${movie.id}`}>
-              {/* <img src={movie.poster} alt={movie.name} /> */}
               <Image source={movie.poster} alternative={movie.name} />
             </NavLink>
           </li>
         ))}
       </ul>
-      {/*   )} */}
     </div>
   );
 };
