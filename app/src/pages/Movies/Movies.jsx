@@ -44,7 +44,6 @@ const Movies = () => {
               lg={4}
             >
               <Movie movie={movie} deleteMovie={deleteMovie} />
-              {/* //mirar esto bien */}
             </Grid>
           ))}
         </Grid>
